@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  background-color: rgba(128, 128, 128, 0.062);
+  height: 60px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-brand {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.navbar .navbar-nav {
+  display: flex;
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.navbar .addcard a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+  padding: 40px 10px;
+}
+.hero-banner .img-con img {
+  width: 100%;
+  height: 550px;
+  display: block;
+}
+.hero-banner .txt-con {
+  height: 400px;
+  width: 100%;
+}
+.hero-banner .txt-con #on {
+  color: black;
+  text-transform: capitalize;
+  padding-top: 150px;
+}
+.hero-banner .txt-con h1 {
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.hero-banner .txt-con #center {
+  color: rgba(0, 0, 0, 0.929);
+  padding-top: 5px;
+}
+.hero-banner .txt-con p {
+  padding-top: 30px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.445);
+}
+.hero-banner .txt-con a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-transform: capitalize;
+}
+.btn-group a {
+  margin: 0 5px;
+}
+.cards-items h3 {
+  color: black;
+  padding: 10px;
+}
+.col-3 {
+  width: 25%;
+  padding: 10px 10px;
+}
+.cards {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.new {
+  margin-top: 0;
+}
+.cards .card-header img {
+  width: 100%;
+  border-radius: 5px;
+}
+.cards .card-body {
+  text-align: center;
+  margin-top: 15px;
+}
+.cards .card-body h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.cards .card-footer {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cards .card-footer a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+footer {
+  background-color: black;
+  margin-top: 40px;
+  padding: 20px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+}
